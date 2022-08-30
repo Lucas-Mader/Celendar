@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Calendárias</title>
+    <link rel="stylesheet" href="calendario.css">
+</head>
+<body>
+    <div id="flex_container_inputs">
+        <input type="date" placeholder="Data de início" id="start_date">
+        <input type="date" placeholder="Data de término" id="end_date">
+        <br>
+        <button value="enviar" id="enviar" onclick="enviar()">Enviar</button>
+    </div>
+    <table id="flex_container_calender">
+        <thead>
+            <tr>
+                <th>DOM</th>
+                <th>SEG</th>
+                <th>TER</th>
+                <th>QUA</th>
+                <th>QUI</th>
+                <th>SEX</th>
+                <th>SÁB</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td id="1"></td>
+                <td id="2">1</td>
+                <td id="3">2</td>
+                <td id="4">3</td>
+                <td id="5">4</td>
+                <td id="6">5</td>
+                <td id="7">6</td>
+            </tr>
+            <tr>
+                <td id="8">7</td>
+                <td id="9">8</td>
+                <td id="10">9</td>
+                <td id="11">10</td>
+                <td id="12">11</td>
+                <td id="13">12</td>
+                <td id="14">13</td>
+            </tr>
+            <tr>
+                <td id="15">14</td>
+                <td id="16">15</td>
+                <td id="17">16</td>
+                <td id="18">17</td>
+                <td id="19">18</td>
+                <td id="20">19</td>
+                <td id="21">20</td>
+            </tr>
+            <tr>
+                <td id="22">21</td>
+                <td id="23">22</td>
+                <td id="24">23</td>
+                <td id="25">24</td>
+                <td id="26">25</td>
+                <td id="27">26</td>
+                <td id="28">27</td>
+            </tr>
+            <tr>
+                <td id="29">28</td>
+                <td id="30">29</td>
+                <td id="31">30</td>
+                <td id="32">31</td>
+                <td id="33"></td>
+                <td id="34"></td>
+                <td id="35"></td>
+            </tr>
+            <tr>
+                <td id="36"></td>
+                <td id="37"></td>
+            </tr>
+        </tbody>
+    </table>
+    <p id="qty_days"></p>
+    <script src="index.js"></script>
+</body>
+</html>

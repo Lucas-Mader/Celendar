@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(rgb(0, 0, 0), rgb(144, 0, 201));
+    color: white;
+    height:  100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 2%;
+}
+
+#flex_container_inputs {
+    margin-left: 35vw;
+    margin-top: 3%;
+}
+
+#flex_container_inputs input {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    height: 3vh;
+    width: 15vw;
+    text-align: center;
+}
+
+#flex_container_inputs button {
+    background-color: rgb(156, 185, 248);
+    border-radius: 5px;
+    height: 3.5vh;
+    width: 10vw;
+    margin-top: 1%;
+    margin-left: 15%;
+    text-align: center;
+}
+
+#flex_container_inputs button:hover {
+    transition-duration: 0.8s;
+    background-color: rgb(124, 147, 197);
+}
+
+table {
+    border-collapse: separate;
+    margin-top: 2%;
+    margin-left: 30vw;
+    border: solid 3px white;
+    font: 20pt medium;
+}
+
+td, th {
+    text-align: center;
+    border: solid 1px rgb(163, 163, 163);
+    width: 5vw;
+    height:6vh;
+}
+
+p {
+    font: bold 20pt Courier;
+    text-align: center;
+    color: rgb(255, 155, 41);
+}
